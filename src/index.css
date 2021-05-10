@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-github {
+  background: #54595e;
+  color: white;
+}
+
+.fa-instagram {
+  background: #54595e;
+  color: white;
+}
+
+.fa-envelope {
+  background: #54595e;
+  color: white;
+}
+
+ul#menu {
+  list-style: none;
+  padding-left: 10px;
+}
+
+ul#menu li {
+  display: inline;
+  padding: 10px;
+}
+
+p {
+  white-space: pre-line;
+  line-height: 50px;
+}
